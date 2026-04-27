@@ -6,10 +6,10 @@ st.set_page_config(page_title="Superstore Dashboard", layout="wide")
 st.title("📊 Superstore Sales Dashboard")
 
 # Load processed data
-monthly_sales = pd.read_csv('../outputs/monthly_sales.csv')
-top_products = pd.read_csv('../outputs/top_products.csv')
-category = pd.read_csv('../outputs/category_performance.csv')
-region = pd.read_csv('../outputs/region_performance.csv')
+monthly_sales = pd.read_csv('monthly_sales.csv')
+top_products = pd.read_csv('top_products.csv')
+category = pd.read_csv('category_performance.csv')
+region = pd.read_csv('region_performance.csv')
 
 # ---- Revenue Trend ----
 st.subheader("📈 Monthly Revenue Trend")
